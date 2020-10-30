@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>新竹市立新竹國小 PM2.5: 22.0</name>
+            <Point id="2">
+                <coordinates>120.966,24.796,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>新竹市立西門國小 PM2.5: 16.0</name>
+            <Point id="4">
+                <coordinates>120.959,24.802,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>新竹市立三民國小 PM2.5: 4.0</name>
+            <Point id="6">
+                <coordinates>120.981,24.813,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>新竹市立龍山國小 PM2.5: 6.0</name>
+            <Point id="8">
+                <coordinates>121.007,24.79,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>新竹市立關東國小 PM2.5: 26.0</name>
+            <Point id="10">
+                <coordinates>121.022,24.784,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>新竹市立建功國小 PM2.5: 11.0</name>
+            <Point id="12">
+                <coordinates>120.999,24.8,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>新竹市立水源國小 PM2.5: 19.0</name>
+            <Point id="14">
+                <coordinates>121.002,24.811,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="17">
+            <name>新竹市立港南國小 PM2.5: 24.0</name>
+            <Point id="16">
+                <coordinates>120.922,24.814,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>新竹市立大庄國小 PM2.5: 22.0</name>
+            <Point id="18">
+                <coordinates>120.927,24.789,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21">
+            <name>新竹市立茄苳國小 PM2.5: 19.0</name>
+            <Point id="20">
+                <coordinates>120.945,24.755,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="23">
+            <name>新竹市立朝山國小 PM2.5: 19.0</name>
+            <Point id="22">
+                <coordinates>120.913,24.765,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="25">
+            <name>新竹市立大湖國小 PM2.5: 22.0</name>
+            <Point id="24">
+                <coordinates>120.933,24.745,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="27">
+            <name>新竹市立內湖國小 PM2.5: 24.0</name>
+            <Point id="26">
+                <coordinates>120.906,24.741,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>新竹市立科園國小 PM2.5: 24.0</name>
+            <Point id="28">
+                <coordinates>121.012,24.781,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="31">
+            <name>新竹市立青草湖國小 PM2.5: 15.0</name>
+            <Point id="30">
+                <coordinates>120.978,24.769,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="33">
+            <name>新竹華德福實驗學校 PM2.5: 21.0</name>
+            <Point id="32">
+                <coordinates>120.913,24.741,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="35">
+            <name>新竹市立培英國中 PM2.5: 17.0</name>
+            <Point id="34">
+                <coordinates>120.978,24.794,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="37">
+            <name>新竹市立光華國中 PM2.5: 12.0</name>
+            <Point id="36">
+                <coordinates>120.973,24.819,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <name>新竹市立南華國中 PM2.5: 29.0</name>
+            <Point id="38">
+                <coordinates>120.927,24.843,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="41">
+            <name>新竹市立竹光國中 PM2.5: 21.0</name>
+            <Point id="40">
+                <coordinates>120.955,24.807,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="43">
+            <name>新竹市立建功高中附設國中 PM2.5: 21.0</name>
+            <Point id="42">
+                <coordinates>121.001,24.797,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

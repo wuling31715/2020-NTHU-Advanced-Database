@@ -23,7 +23,17 @@ ON ST_Intersects(c.geom, n.geom)
 GROUP BY n.name, n.geom
 ORDER BY density DESC LIMIT 3;
 
-EXPLAIN 
+CREATE INDEX name_index ON nyc_neighborhoods(name);
+
+EXPLAIN
+SELECT n.name, SUM(c.popn_total) / (ST_Area(n.geom) / 1000000.0) AS density
+FROM nyc_census_blocks AS c
+JOIN nyc_neighborhoods AS n
+ON ST_Intersects(c.geom, n.geom)
+GROUP BY n.name, n.geom
+ORDER BY density DESC LIMIT 3;
+
+EXPLAIN ANALYZE
 SELECT n.name, SUM(c.popn_total) / (ST_Area(n.geom) / 1000000.0) AS density
 FROM nyc_census_blocks AS c
 JOIN nyc_neighborhoods AS n
