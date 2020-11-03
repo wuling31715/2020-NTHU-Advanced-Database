@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Orris, G.J.</origin>
+        <origin>Seo, Yuna</origin>
+        <origin>Briggs, D.A.</origin>
+        <origin>Dunlap, Pamela</origin>
+        <origin>Cocker, M.D.</origin>
+        <pubdate>2018</pubdate>
+        <title>Global rare earth element occurrence database</title>
+        <edition>1.0</edition>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, United States</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Orris, G.J., Seo, Yuna, Briggs, D.A., Dunlap, Pamela, and Cocker, M.D., 2018, Global rare earth element occurrence database: U.S. Geological Survey data release, https://doi.org/10.5066/F7DR2TN4.</othercit>
+        <onlink>https://doi.org/10.5066/F7DR2TN4</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This spatial database "usgs_Global_REE.gdb" was created for use in a geographic information system (GIS) to support research on global rare earth deposits and occurrences by the U.S. Geological Survey. This inventory documents the geologic occurrence of rare earths, including mineralogy, type of deposit or occurrence, host rocks and alteration, and any quantitative data related to size and grade from publicly available data. Rare earths, as used in this report, includes the chemically similar lanthanide group of elements, as well as yttrium. Databases that summarize the distribution of known occurrences and their geologic setting are an integral part of a geologically-based evaluation of undiscovered mineral resources. The distribution of known occurrences allows us to understand the factors that control their distributions, the degree of variation within deposit types, and, through the use of analogy, to forecast areas where similar deposits and occurrences may occur. The geodatabase contains more than 3100 records with latitudes and longitudes and more than 800 records without plottable locations.  Spatial and descriptive data for 3100 rare earth deposits and occurrences around the world are stored in the rare earth geodatabase feature class "Global_REE" for use in a geographic information system (GIS). In addition, 820 deposits and occurrences for which no location was found or determined are stored in a geodatabase table "Global_REE_nonspatial_table" and the over 1590 references are stored in a geodatabase table "All_Global_REE_references" which were used to compile these data. The databases of rare earth deposits and occurrences provides descriptive information where available on mineralogy, host and associated rocks and ages, alteration, sizes and grades of resources and production, and references; the data in the spatial database include location.</abstract>
+      <purpose>The purpose of this worldwide inventory is to better understand the variation within and between deposits and occurrences of rare earth elements with the goal of being able to develop better deposit descriptive models and assessment methodologies.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2018</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-166.500000</westbc>
+        <eastbc>175.867000</eastbc>
+        <northbc>72.860000</northbc>
+        <southbc>-82.046400</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geoscientific Information</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Geology, Minerals, Energy, &amp; Geophysics Science Center</themekt>
+        <themekey>economic geology</themekey>
+        <themekey>REE</themekey>
+        <themekey>mineral deposit</themekey>
+        <themekey>rare earth element deposits</themekey>
+        <themekey>natural resources</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:5a0c5a0de4b09af898cd15d2</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Greta J. Orris</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>520 North Park Avenue</address>
+          <city>Tucson</city>
+          <state>AZ</state>
+          <postal>85719</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>520-670-5583</cntvoice>
+        <cntfax>520-670-5113</cntfax>
+        <cntemail>greta@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Greta J. Orris compiled the initial data and Yuna Seo contributed additions and corrections to the Asian part of the REE data. Deborah A. Briggs created an Esri file geodatabase feature class, and wrote the metadata. Pamela Dunlap designed the initial geodatabase and wrote the initial metadata.</datacred>
+    <secinfo>
+      <secsys>http://project-open-data.github.io/schema/#accessLevel</secsys>
+      <secclass>public</secclass>
+      <sechandl>Standard Technical Controls</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.5.1.7339</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users should consult the references listed for each record for additional information. They are also advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Development of the data set by the agency / individuals' identification the 'Originator' element in the Identification Info section of the record.</procdesc>
+        <procdate>2012-2017</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>3090</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000000</latres>
+        <longres>0.000000</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257224</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Global_REE</enttypl>
+        <enttypd>Database of rare earth element and related rare metal mineral occurrence sites worldwide.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning point.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID_No</attrlabl>
+        <attrdef>Unique numeric identifier for record.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique identification number assigned for each spatial and non-spatial site.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Site name.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name_Other</attrlabl>
+        <attrdef>Other name(s) for site.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Components</attrlabl>
+        <attrdef>Additional information concerning individual occurrence or mine names.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Part_of</attrlabl>
+        <attrdef>Additional information concerning districts, fields, complexes or other geologic features that the occurrence is located in.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rec_Type</attrlabl>
+        <attrdef>Site type; queried where uncertain.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>site</edomv>
+            <edomvd>Mineralization of limited extent, including mine sites, individual pegmatites or veins.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>district or area</edomv>
+            <edomvd>Areas of REE mineralization or showings, including concessions, mineral districts, aerially extensive mineralized units, political/geographic areas.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>intrusion or complex</edomv>
+            <edomvd>Igneous complexes and intrusions.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rec_Note</attrlabl>
+        <attrdef>Supplemental information regarding type of site.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Country</attrlabl>
+        <attrdef>Country in which site is located.</attrdef>
+        <attrdefs>U.S. Department of State, 2009, Small-scale digital international land boundaries (SSIB)-Lines, edition 10: Boundaries and Sovereignty Encyclopedia (B.A.S.E.), U.S. Department of State, Office of the Geographer and Global Issues. The 1979 Taiwan Relations Act provides the basis for the unofficial relationship between the United States and Taiwan, and as such, we list Taiwan as an occurrence site.</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_Prov</attrlabl>
+        <attrdef>State, province, or other first level administrative division in which site is located.</attrdef>
+        <attrdefs>World Administrative Divisions, 2014, Data and Maps for ArcGISï¿½ from DeLorme Publishing Company, Inc.</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Positive number represents latitude north of the equator; negative number represents latitude south of the equator.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-82.046400</rdommin>
+            <rdommax>72.860000</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Positive number represents longitude east of the Greenwich meridian; negative number represents longitude west of the Greenwich meridian.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-166.500000</rdommin>
+            <rdommax>175.8670000</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Loc_Note</attrlabl>
+        <attrdef>Note or comment about location. Full citations for references cited are provided in the standalone file geodatabase table "All_Global_REE_references".</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dep_Type</attrlabl>
+        <attrdef>Type of mineral deposit by generalized categories; queried where uncertain; multiple types may be listed separated by semicolons.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>alkaline igneous</edomv>
+            <edomvd>REE in sequences of alkaline lavas, tuffs, mafic volcanics, and subvolcanic intrusives, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>alkaline igneous with residual enrichment</edomv>
+            <edomvd>Supergene enrichment of REE in the laterite profile above alkaline intrusions, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>alluvial placer</edomv>
+            <edomvd>Stream and eluvial sand and gravel containing REE minerals, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>bauxite</edomv>
+            <edomvd>REE-bearing aluminum-rich sedimentary rock formed by lateritic weathering of carbonate rocks or silicate rocks (such as granite, gneiss, basalt, and shale) in areas with good drainage, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>bauxite tailings</edomv>
+            <edomvd>Tailings (mine and mineral processing waste) from current or past bauxite mining operations, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>carbonatite</edomv>
+            <edomvd>REE-mineralization within, or associated with carbonatite intrusions; LREE are commonly dominant, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>carbonatite with residual enrichment</edomv>
+            <edomvd>Supergene enrichment of REE in the laterite profile above REE-bearing carbonatite bodies, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>coal deposit</edomv>
+            <edomvd>REE-bearing coal deposit.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fluorite deposit</edomv>
+            <edomvd>REE-bearing fluorite deposit.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>hydrothermal Fe-oxide deposit ï¿½Cu, Au</edomv>
+            <edomvd>Iron oxide-Cu-Au mineralization related to igneous activity probably related to mantle underplating, high heat flow, and source rocks (subaerial basalts, sediments, and/or magmas) that are relatively oxidized; is often considered an end member in a continuum to iron oxide-apatite deposits, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>iron oxide-apatite</edomv>
+            <edomvd>REE-bearing iron oxide-apatite mineralization commonly related to bimodal subvolcanic to volcanic activity; is often considered an end member in a continuum to iron oxide-Cu-Au deposits.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>metalliferous black shale</edomv>
+            <edomvd>REE-bearing metalliferous, dark colored, fine-grained sedimentary rock.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>metamorphic</edomv>
+            <edomvd>REE-bearing metamorphic rock, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>other</edomv>
+            <edomvd>REE-bearing deposit type does not fit other standard categories and is listed in the Dep_Note field.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>other igneous deposit</edomv>
+            <edomvd>REE-bearing deposits in igneous rocks that are not attributed to a different classification, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>paleoplacer</edomv>
+            <edomvd>REE-bearing placer concentrations of minerals where the host material is a consolidated rock than unconsolidated recent alluvial/eluvial sediments, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>phosphorite</edomv>
+            <edomvd>Phosphate-bearing sedimentary rock with elevated levels of REE formed in restricted and shallow water environments (subtidal-intertidal).</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>placer of unknown origin</edomv>
+            <edomvd>REE-bearing sediments in a location that could be either an alluvial placer or shoreline placer or where the type of placer has not been specified and cannot be determined from other data, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sedimentary</edomv>
+            <edomvd>REE enrichment in sedimentary rocks that does not fit in another category used in this compilation, queried where uncertain, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>shoreline placer</edomv>
+            <edomvd>REE-bearing heavy-mineral concentrations in beach and dune sands form by the action of wind and waves that are most common in coastal regions of stable crustal margins; either onshore or shallow marine deposits may be present.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>supergene</edomv>
+            <edomvd>REE-bearing supergene material at or near the surface, exclusive of bauxite; named processes include laterization, chemical weathering, etc., queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>tailings</edomv>
+            <edomvd>Tailings (mine and mineral processing waste) from current or past mining operations that worked a variety of deposit types.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>unclassified</edomv>
+            <edomvd>Deposits that were not classified or could not be classified from available information.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>uranium deposit</edomv>
+            <edomvd>REE mineralization in deposits where the dominant commodity of interest is uranium; most commonly REE is associated with lignite in sandstone-hosted polymetallic uranium deposits, queried where uncertain.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dep_Note</attrlabl>
+        <attrdef>Supplemental information regarding type of mineral deposit.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dep_Form</attrlabl>
+        <attrdef>Physical form of deposit.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Commods</attrlabl>
+        <attrdef>Significant commodities present, queried if uncertain; multiple commodities are comma-delimited. Commodities are listed in order of perceived abundance according to the viewpoint of the original author(s). Users should consult accompanying "Abbreviations_table" for meaning of commodity codes in this field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HREE_Note</attrlabl>
+        <attrdef>Comments about heavy rare earth elements present. Commodities are not necessarily listed in order of abundance.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LREE_Note</attrlabl>
+        <attrdef>Comments about light rare earth elements present. Commodities are not necessarily listed in order of abundance.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REE_Ratio</attrlabl>
+        <attrdef>Approximate ratio of light rare earth elements to heavy rare earth elements, as LREE/HREE.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REE</attrlabl>
+        <attrdef>Rare earth elements present.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Site status, queried where uncertain.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Deposit</edomv>
+            <edomvd>Site or area with known production, reserves, or resources without regard to size.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Occurrence</edomv>
+            <edomvd>Site or area without known production, reserves, or resources where geology seems to be fairly well described or where mineralization was notable enough to result in prospection/exploration.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Showing</edomv>
+            <edomvd>Sites or areas where REE mineralization is present but the amount is not considered interesting, has not been studied, or has almost no information available.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stat_Note</attrlabl>
+        <attrdef>Specific information that further qualifies values in the Status field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REE_Mins</attrlabl>
+        <attrdef>Minerals present that contain rare earth elements.  Commodities are listed in order of perceived abundance according to the viewpoint of the original author(s).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sig_Mins</attrlabl>
+        <attrdef>Significant minerals and ore minerals, other than those that contain rare earth elements. Commodities are not necessarily listed in order of abundance.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Oth_Mins</attrlabl>
+        <attrdef>Rock-forming minerals. Commodities are not necessarily listed in order of abundance.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_Mzn</attrlabl>
+        <attrdef>Chronostratigraphic age of mineralization.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_Ma</attrlabl>
+        <attrdef>Age of mineralization, reported as absolute age, and, if known, the method used and mineral dated (enclosed in parentheses). Measurement units Ma, mega-annum (millions of years).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Host_Age</attrlabl>
+        <attrdef>Chronostratigraphic age of host rock.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HAge_Ma</attrlabl>
+        <attrdef>Age of host rock, reported as absolute age, and, if known, the method used and mineral dated (enclosed in parentheses).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Host_Lith</attrlabl>
+        <attrdef>Lithology and (or) composition of the host rock and (or) unconsolidated sediment; multiple terms are delimited by commas.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Host_Unit</attrlabl>
+        <attrdef>Host rock unit (formation, group, etc.) in which rare earth element mineralization occurs, queried where uncertain.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Assoc_Rock</attrlabl>
+        <attrdef>Other lithologies or rock units associated with the rare earth element mineralization.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Alteration</attrlabl>
+        <attrdef>Type of alteration.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Company</attrlabl>
+        <attrdef>Mining company, or developer of exploration and (or) mining operations.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+        <attrdef>Comments related to the mineralization or geology of the site or area.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ref_List</attrlabl>
+        <attrdef>Abbreviated citation(s) for source references used in compiling the data; multiple citations are delimited by semicolons. Full citations are provided in the standalone file geodatabase table "All_Global_REE_references". Users should access these references for more complete information.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Discov_Yr</attrlabl>
+        <attrdef>Year or general time period in which deposit was discovered.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Expl_Note</attrlabl>
+        <attrdef>Other comments about exploration activity.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mine_Meth</attrlabl>
+        <attrdef>Mining method(s) used to extract rare earth elements.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Status</attrlabl>
+        <attrdef>Known status with respect to being a producer of rare earth elements; queried where uncertain.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Producer</edomv>
+            <edomvd>Site or area produces, may be producing, or has produced in the fairly recent past, REE or REE-bearing minerals; production may be stockpiled in some instances.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Byproduct producer</edomv>
+            <edomvd>Site or area produces REE or REE-bearing mineral as a byproduct.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Past producer</edomv>
+            <edomvd>Site or area that produced rare earths or rare earth-bearing minerals in the past.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Past byproduct producer</edomv>
+            <edomvd>Site or area produced REE or REE-bearing mineral as a byproduct in the past.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>No production</edomv>
+            <edomvd>Site or area has no known production.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Not known</edomv>
+            <edomvd>Production of rare earths or rare earth-bearing minerals has not been determined for site or area.</edomvd>
+            <edomvds>USGS authors</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PStat_Note</attrlabl>
+        <attrdef>Specific information that further qualifies values in the field P_Status.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Years</attrlabl>
+        <attrdef>Years or general time period of rare earth element production. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "P_Refs" field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Refs</attrlabl>
+        <attrdef>Abbreviated citation for source reference used in compiling production information in the P_* fields (P_Status, PStat_Note, and P_Years); multiple citations are delimited by semicolons; numbered entries correspond to numbered entries in the P_* fields. Full citations are provided in the standalone file geodatabase table "All_Global_REE_references".</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P_Note</attrlabl>
+        <attrdef>Additional notes concerning occurrence production. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "P_Refs" field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_Ore_Mt</attrlabl>
+        <attrdef>Ore tonnage of reserves or resources. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. Measurement units Mt, million metric tons. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_TREO_Mt</attrlabl>
+        <attrdef>Tonnage of total rare earth oxide (TREO) resource. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. Measurement units Mt, million metric tons. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_TREOgrd</attrlabl>
+        <attrdef>Grade of total rare earth oxide (TREO) resource, in percent. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_REE_grd</attrlabl>
+        <attrdef>Grade of rare earth element resource, other than total rare earth oxides (TREO), in percent (%), grams per metric ton (g/t), or parts per million (ppm). Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_Cutoff</attrlabl>
+        <attrdef>Cutoff grade of ore of total rare earth oxide (TREO) resource, in percent (%), grams per metric ton (g/t), or parts per million (ppm). Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_HM_Mt</attrlabl>
+        <attrdef>Total tonnage of heavy mineral resources. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. Measurement units Mt, million metric tons. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_HM_pct</attrlabl>
+        <attrdef>Proportion of heavy minerals in ore, in percent. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_min_Mt</attrlabl>
+        <attrdef>Name and tonnage of rare earth element mineral resources. Abbreviations used include: geol - geologic resource, meas - measured, poss - possible, prob - probable, prob+poss - probable plus possible, rsrc - resource. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. Measurement units Mt, million metric tons. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_min_pct</attrlabl>
+        <attrdef>Name and grade of rare earth element minerals in ore, in percent. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_mon_Mt</attrlabl>
+        <attrdef>Reserves and resources of monazite. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. Measurement units Mt, million metric tons. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_mon_pct</attrlabl>
+        <attrdef>Grade of monazite reserves and resources, in percent. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_oth_grd</attrlabl>
+        <attrdef>Name and grade of other commodities in percent (%), grams per metric ton (g/t), or parts per million (ppm); multiple commodities are comma-delimited. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field. The lack of a resource qualifier indicates that the source material did not specify or the information was not captured.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_Yr_Est</attrlabl>
+        <attrdef>Year of the resource estimations. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_Refs</attrlabl>
+        <attrdef>Abbreviated citation for source reference used in compiling reserve and resource information in the RR_* fields (RR_Ore_Mt, RR_TREOgrd, RR_TREO_Mt, RR_REE_grd, RR_Cutoff, RR_HM_Mt, RR_HM_pct, RR_min_Mt, RR_min_pct, RR_mon_Mt, RR_mon_pct, RR_oth_grd and RR_Yr_Est); multiple citations are delimited by semicolons; numbered entries correspond to numbered entries in the RR_* fields. Full citations are provided in the standalone file geodatabase table "All_Global_REE_references".</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_RegCode</attrlabl>
+        <attrdef>Compliancy of resource estimate with national regulatory guidelines, such as the Joint Ore Reserves Committee Code (JORC), South African Code for Reporting of Mineral Resources and Mineral Reserves (SAMREC), Russian Code for the Public Reporting of Exploration Results (NAEN) or Canadian Institute of Mining (CIM), Metallurgy and Petroleum (NI 43-101). Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RR_Note</attrlabl>
+        <attrdef>Additional notes concerning the reserve and resource information in the RR_* fields (RR_Ore_Mt, RR_TREOgrd, RR_TREO_Mt, RR_REE_grd, RR_Cutoff, RR_HM_Mt, RR_HM_pct, RR_min_Mt, RR_min_pct, RR_mon_Mt, RR_mon_pct, RR_oth_grd and RR_Yr_Est); multiple citations are delimited by semicolons. Numerical prefixes (e.g., "1)"), if present, refer to source of data cited in the "RR_Refs" field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site, blanks represent "unknown" or no additional information.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Region</attrlabl>
+        <attrdef>General geographic region of the world.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Unique information concerning site.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The attributes contained in this dataset include information related to rare earth element and related rare mineral occurrence site, identification, location, site type, geologic and metallogenic information, and information sources.</eaover>
+      <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntvoice>1-888-ASK-USGS</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Feature Class</formname>
+          <formvern>ArcGIS v. 10.5.1.7339</formvern>
+          <formverd>20171023</formverd>
+          <filedec>no compression applied</filedec>
+          <transize>117</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/F7DR2TN4</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the data set.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20200821</metd>
+    <metfrd>None planned</metfrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Deborah A. Briggs</cntper>
+          <cntorg>Serrano IT Services (under contract to the U.S. Geological Survey)</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>W 904 Riverside, Suite 202</address>
+          <city>Spokane</city>
+          <state>Washington</state>
+          <postal>99201</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-509-368-3113</cntvoice>
+        <cntfax>1-509-368-3199</cntfax>
+        <cntemail>dbriggs@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
