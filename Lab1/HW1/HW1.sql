@@ -50,3 +50,27 @@ JOIN nyc_neighborhoods AS n
 ON ST_Intersects(c.geom, n.geom)
 GROUP BY n.name, n.geom
 ORDER BY density DESC LIMIT 3;
+
+
+
+
+
+
+SELECT g.country, COUNT(g.country)
+FROM global_ree_occurrence_database AS g
+-- JOIN country AS c
+-- ON ST_DWithin(h.geom, s.geom, 200)
+GROUP BY g.country
+ORDER BY COUNT(g.country) DESC;
+
+SELECT g.region, COUNT(g.region)
+FROM global_ree_occurrence_database AS g
+GROUP BY g.region
+ORDER BY COUNT(g.region) DESC;
+
+SELECT c.cntry_name, COUNT(c.cntry_name)
+FROM global_ree_occurrence_database AS g
+JOIN country AS c
+ON ST_Intersects(g.geom, c.geom)
+GROUP BY c.cntry_name
+ORDER BY COUNT(c.cntry_name) DESC LIMIT 10;
