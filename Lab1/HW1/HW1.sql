@@ -74,3 +74,11 @@ JOIN country AS c
 ON ST_Intersects(g.geom, c.geom)
 GROUP BY c.cntry_name
 ORDER BY COUNT(c.cntry_name) DESC LIMIT 10;
+
+
+SELECT c.cntry_name, COUNT(c.cntry_name)
+FROM global_ree_occurrence_database AS g
+JOIN country AS c
+ON ST_Intersects(g.geom, c.geom)
+WHERE c.cntry_name = 'Taiwan'
+GROUP BY c.cntry_name;
